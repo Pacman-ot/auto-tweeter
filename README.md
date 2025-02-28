@@ -41,17 +41,5 @@ http://127.0.0.1:8000/tweet
 ```
 This will redirect you to a random pre-filled tweet on Twitter.
 
-## Deployment
-You can deploy this API on services like Render, Replit, or Vercel. For Render, follow these steps:
-1. Push your code to GitHub.
-2. Go to [Render](https://render.com/) and create a new web service.
-3. Connect your repository.
-4. Set the start command:
-   ```sh
-   uvicorn main:app --host 0.0.0.0 --port $PORT
-   ```
-5. Deploy and get your API URL!
 
-## Example QR Code Usage
-Once deployed, generate a QR code with your API endpoint (`/tweet`), so users can scan and get a pre-filled tweet instantly.
 
